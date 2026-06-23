@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Ave Maria Radio project placeholder">
+  <rect width="900" height="700" fill="#17233d"/>
+  <rect x="70" y="70" width="760" height="450" rx="18" fill="#f8fafc"/>
+  <rect x="110" y="125" width="300" height="335" fill="#d9ecfb"/>
+  <rect x="455" y="125" width="310" height="44" rx="8" fill="#17233d"/>
+  <rect x="455" y="210" width="250" height="20" rx="5" fill="#45617f"/>
+  <rect x="455" y="260" width="285" height="20" rx="5" fill="#45617f"/>
+  <rect x="455" y="310" width="225" height="20" rx="5" fill="#45617f"/>
+  <circle cx="260" cy="292" r="92" fill="#f6c72f"/>
+  <path d="M215 292h90M260 247v90" stroke="#17233d" stroke-width="22" stroke-linecap="round"/>
+  <text x="70" y="610" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700">96% recommendation rating</text>
+</svg>

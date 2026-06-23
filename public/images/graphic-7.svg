@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Education campaign creative placeholder">
+  <rect width="800" height="600" fill="#111827"/>
+  <rect x="80" y="95" width="640" height="320" rx="12" fill="#26364f"/>
+  <circle cx="580" cy="250" r="95" fill="#45617f"/>
+  <rect x="130" y="160" width="310" height="42" rx="8" fill="#f6c72f"/>
+  <rect x="130" y="245" width="260" height="24" rx="6" fill="#d9ecfb"/>
+  <rect x="130" y="300" width="220" height="24" rx="6" fill="#d9ecfb"/>
+  <text x="80" y="505" fill="#fff" font-family="Arial" font-size="30" font-weight="700">Education campaign creative</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Product packaging design placeholder">
+  <rect width="800" height="600" fill="#d9ecfb"/>
+  <path d="M250 90h300l70 105v300H180V195Z" fill="#ffffff" stroke="#17233d" stroke-width="8"/>
+  <rect x="270" y="170" width="260" height="245" fill="#22a7d8"/>
+  <circle cx="400" cy="292" r="72" fill="#f6c72f"/>
+  <text x="255" y="505" fill="#17233d" font-family="Arial" font-size="30" font-weight="700">Packaging design</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Product advertising creative placeholder">
+  <rect width="800" height="600" fill="#111827"/>
+  <rect x="80" y="90" width="250" height="360" rx="20" fill="#45617f"/>
+  <rect x="380" y="150" width="70" height="240" rx="28" fill="#f6c72f"/>
+  <rect x="480" y="150" width="70" height="240" rx="28" fill="#d9ecfb"/>
+  <rect x="580" y="150" width="70" height="240" rx="28" fill="#7dd3fc"/>
+  <text x="80" y="510" fill="#fff" font-family="Arial" font-size="30" font-weight="700">Product ad creative</text>
+</svg>

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --background: #f5f8fb;
+  --foreground: #172033;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10;
+}
+
+.eyebrow {
+  @apply text-xs font-bold uppercase tracking-[0.22em] text-steel;
+}
+
+.section-title {
+  @apply mt-3 max-w-3xl text-3xl font-black tracking-normal text-navy sm:text-4xl lg:text-5xl;
+}
+
+.section-copy {
+  @apply mt-4 max-w-3xl text-base leading-7 text-slate-700 sm:text-lg;
+}

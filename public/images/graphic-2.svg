@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Trade show display placeholder">
+  <rect width="800" height="600" fill="#eef6fc"/>
+  <rect x="80" y="120" width="640" height="280" rx="18" fill="#17233d"/>
+  <rect x="145" y="175" width="210" height="42" rx="6" fill="#f6c72f"/>
+  <rect x="145" y="250" width="320" height="26" rx="5" fill="#d9ecfb"/>
+  <rect x="145" y="300" width="250" height="26" rx="5" fill="#d9ecfb"/>
+  <circle cx="610" cy="260" r="78" fill="#45617f"/>
+  <text x="80" y="505" fill="#17233d" font-family="Arial" font-size="30" font-weight="700">Trade show display</text>
+</svg>

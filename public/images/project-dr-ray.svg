@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Dr. Ray Guarendi project placeholder">
+  <rect width="900" height="700" fill="#eef6fc"/>
+  <rect x="60" y="70" width="780" height="500" rx="18" fill="#ffffff"/>
+  <rect x="95" y="110" width="350" height="420" rx="10" fill="#17233d"/>
+  <circle cx="270" cy="245" r="82" fill="#f6c72f"/>
+  <rect x="500" y="140" width="270" height="28" rx="6" fill="#17233d"/>
+  <rect x="500" y="200" width="220" height="18" rx="5" fill="#45617f"/>
+  <rect x="500" y="250" width="290" height="18" rx="5" fill="#45617f"/>
+  <rect x="500" y="300" width="240" height="18" rx="5" fill="#45617f"/>
+  <rect x="500" y="380" width="185" height="54" rx="8" fill="#f6c72f"/>
+  <text x="95" y="635" fill="#17233d" font-family="Arial, sans-serif" font-size="30" font-weight="700">Expert Brand Positioning</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Seasonal sale campaign placeholder">
+  <rect width="800" height="600" fill="#f8fafc"/>
+  <circle cx="120" cy="110" r="80" fill="#b91c1c"/>
+  <circle cx="700" cy="100" r="65" fill="#f6c72f"/>
+  <rect x="90" y="180" width="620" height="210" fill="#17233d"/>
+  <text x="135" y="275" fill="#fff" font-family="Arial" font-size="66" font-weight="800">SALE</text>
+  <text x="135" y="345" fill="#f6c72f" font-family="Arial" font-size="38" font-weight="700">Campaign Creative</text>
+  <text x="90" y="505" fill="#17233d" font-family="Arial" font-size="30" font-weight="700">Seasonal sale campaign</text>
+</svg>

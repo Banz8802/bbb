@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Deacon Harold Burke-Sivers project placeholder">
+  <rect width="900" height="700" fill="#17233d"/>
+  <rect x="0" y="0" width="900" height="300" fill="#111827"/>
+  <path d="M0 210 C180 120 300 270 470 170 C610 90 720 110 900 40 L900 300 L0 300Z" fill="#293a5d"/>
+  <circle cx="150" cy="360" r="95" fill="#f6c72f"/>
+  <circle cx="150" cy="360" r="76" fill="#314e72"/>
+  <rect x="285" y="320" width="520" height="36" rx="8" fill="#f8fafc"/>
+  <rect x="285" y="378" width="310" height="22" rx="6" fill="#d9ecfb"/>
+  <rect x="70" y="500" width="220" height="120" fill="#0f172a"/>
+  <rect x="340" y="500" width="220" height="120" fill="#0f172a"/>
+  <rect x="610" y="500" width="220" height="120" fill="#0f172a"/>
+  <text x="285" y="448" fill="#f6c72f" font-family="Arial, sans-serif" font-size="32" font-weight="700">58K+ followers</text>
+  <text x="70" y="666" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Case Study Placeholder</text>
+</svg>
