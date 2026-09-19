@@ -32,6 +32,11 @@ export const metadata: Metadata = {
     description:
       "Strategy, content, paid advertising, and systems that drive real growth.",
   },
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({

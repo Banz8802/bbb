@@ -34,16 +34,16 @@ export function WhyChoose() {
           <div className="grid gap-4 sm:grid-cols-2">
             {reasons.map((reason, idx) => (
               <RevealSection key={reason.title} delay={idx * 80}>
-                <div className="group flex flex-col gap-3 rounded-xl border border-slate-200/80 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-card">
+                <div className="group flex flex-col gap-3 rounded-xl border border-slate-200/80 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:bg-navy hover:border-navy hover:shadow-card-hover">
                   <div className="flex items-baseline gap-3">
                     <span className="font-display text-2xl font-black tabular-nums text-gold shrink-0 sm:text-3xl">
                       {String(idx + 1).padStart(2, "0")}
                     </span>
-                    <h3 className="text-base font-black text-navy leading-snug sm:text-lg">
+                    <h3 className="text-base font-black text-navy leading-snug sm:text-lg transition-colors duration-300 group-hover:text-white">
                       {reason.title}
                     </h3>
                   </div>
-                  <p className="text-sm leading-6 text-slate-600">
+                  <p className="text-sm leading-6 text-slate-600 transition-colors duration-300 group-hover:text-slate-200">
                     {reason.detail}
                   </p>
                 </div>
