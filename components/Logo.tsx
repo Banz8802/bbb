@@ -1,20 +1,23 @@
-import { TrendingUp } from "lucide-react";
+import Image from "next/image";
 
 export function Logo() {
   return (
     <div className="flex items-center gap-3">
-      <div className="grid h-11 w-11 place-items-center rounded-md border border-white/25 bg-white/10 text-gold shadow-sm backdrop-blur">
-        <TrendingUp aria-hidden="true" size={25} strokeWidth={2.5} />
-      </div>
-      <div className="leading-tight">
-        <p className="text-sm font-black uppercase tracking-[0.16em]">
-          Building
-          <br />
-          Better Brands
-        </p>
-        <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-gold">
+      <Image
+        src="/images/logo.png"
+        alt="Building Better Brands — Social Media Agency"
+        width={46}
+        height={46}
+        className="rounded-full shrink-0"
+        priority
+      />
+      <div className="flex flex-col">
+        <span className="font-display text-xs sm:text-sm font-bold tracking-wider text-white leading-tight">
+          BUILDING BETTER BRANDS
+        </span>
+        <span className="text-[9px] sm:text-[10px] font-bold tracking-widest text-gold uppercase leading-tight">
           Social Media Agency
-        </p>
+        </span>
       </div>
     </div>
   );

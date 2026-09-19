@@ -8,12 +8,12 @@ type SectionHeaderProps = {
 export function SectionHeader({ eyebrow, title, copy, light }: SectionHeaderProps) {
   return (
     <div>
-      <p className={light ? "eyebrow text-gold" : "eyebrow"}>{eyebrow}</p>
-      <h2 className={light ? "section-title text-white" : "section-title"}>
+      <p className={`eyebrow ${light ? "text-gold" : "text-steel"}`}>{eyebrow}</p>
+      <h2 className={`section-title ${light ? "text-white" : "text-navy"}`}>
         {title}
       </h2>
       {copy ? (
-        <p className={light ? "section-copy text-slate-200" : "section-copy"}>
+        <p className={`section-copy ${light ? "text-slate-200" : "text-slate-700"}`}>
           {copy}
         </p>
       ) : null}

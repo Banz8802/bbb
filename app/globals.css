@@ -14,6 +14,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -26,18 +27,135 @@ img {
   max-width: 100%;
 }
 
+/* =============================================
+   Section layout helpers
+   ============================================= */
 .section-shell {
   @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10;
 }
 
 .eyebrow {
-  @apply text-xs font-bold uppercase tracking-[0.22em] text-steel;
+  @apply text-xs font-bold uppercase tracking-[0.22em];
 }
 
 .section-title {
-  @apply mt-3 max-w-3xl text-3xl font-black tracking-normal text-navy sm:text-4xl lg:text-5xl;
+  @apply mt-3 max-w-3xl text-3xl font-black tracking-normal sm:text-4xl lg:text-5xl;
 }
 
 .section-copy {
-  @apply mt-4 max-w-3xl text-base leading-7 text-slate-700 sm:text-lg;
+  @apply mt-4 max-w-3xl text-base leading-7 sm:text-lg;
+}
+
+/* =============================================
+   Scroll-reveal animation system
+   ============================================= */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 {
+  transition-delay: 0.1s;
+}
+
+.reveal-delay-2 {
+  transition-delay: 0.2s;
+}
+
+.reveal-delay-3 {
+  transition-delay: 0.3s;
+}
+
+.reveal-delay-4 {
+  transition-delay: 0.4s;
+}
+
+.reveal-fade {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+.reveal-fade.visible {
+  opacity: 1;
+}
+
+/* =============================================
+   Respect prefers-reduced-motion
+   ============================================= */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal,
+  .reveal-fade {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* =============================================
+   Focus ring — accessible keyboard nav
+   ============================================= */
+:focus-visible {
+  outline: 2px solid #f6c72f;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* =============================================
+   Mobile menu slide animation
+   ============================================= */
+.mobile-menu-enter {
+  animation: slide-menu-in 0.25s ease forwards;
+}
+
+@keyframes slide-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =============================================
+   Underline link animation
+   ============================================= */
+.link-underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.link-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #f6c72f;
+  transition: width 0.25s ease;
+}
+
+.link-underline:hover::after {
+  width: 100%;
 }
